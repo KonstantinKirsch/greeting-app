@@ -11,7 +11,7 @@ let app = express();
 
 // Alle Dateien die im Ordner "frontend" enthalten sind
 // werden an den User 'ohne weiter Verarbeitung' weitergeleitet.
-app.use(express.static('.github'));
+app.use(express.static('GREETING-APP'));
 
 
 // Sobald Server gestartet ist, wird eine Meldeun
