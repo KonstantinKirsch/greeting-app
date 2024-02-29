@@ -11,7 +11,7 @@ let app = express();
 
 // Alle Dateien die im Ordner "frontend" enthalten sind
 // werden an den User 'ohne weiter Verarbeitung' weitergeleitet.
-app.use(express.static('GREETING-APP'));
+app.use(express.static('greeting-app'));
 
 
 // Sobald Server gestartet ist, wird eine Meldeun
